@@ -1,0 +1,19 @@
+{
+  "name": "expense-tracker-cli",
+  "version": "1.0.0",
+  "description": "Projeto de Backend do site Roadmap.sh - Expense Tracker CLI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node cli.js"
+  },
+  "bin": {
+    "expense-tracker": "cli.cmd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "type": "module"
+}
